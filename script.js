@@ -1,4 +1,11 @@
 const menu = document.querySelector (".menu");
-const name = document.querySelector ("#name");
+const userName = document.querySelector ("#username");
 const password = document.querySelector ("#password");
-const loginMessage = document.querySelector ("#loginmessage");
+const logInBtn = document.querySelector ("#loginbtn");
+const content = document.querySelector (".content");
+const wrongLogin = document.querySelector ("#wronglogin");
+const rightLogin = document.querySelector ("#rightlogin");
+
+logInBtn.addEventListener("click", myFunction(){
+    console.log("Hej!"),
+});
