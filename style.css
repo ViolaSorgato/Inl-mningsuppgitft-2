@@ -15,3 +15,7 @@ body {
 #rightlogin {
     display: none;
 }
+
+#logoutbtn {
+    display: none;
+}
